@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-kaf2r*#&6f97&!$-_ftn@-j0mg_l(uf1*!fxrtbyi_am6afqc!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','https://stock-stage-backend.onrender.com','http://stock-stage-backend.onrender.com']  # Add allowed hosts here
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','stock-stage-backend.onrender.com']  # Add allowed hosts here
 
 
 # CORS settings for handling cross-origin requests
