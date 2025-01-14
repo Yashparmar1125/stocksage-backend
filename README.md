@@ -1,6 +1,4 @@
-Here's an updated version of your project overview, incorporating some formatting improvements and enhancements:
 
----
 
 # Stock Price Prediction Using Machine Learning
 
@@ -48,27 +46,15 @@ This project utilizes machine learning techniques to predict stock prices and pr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Yashparmar1125/Stock-Price-Prediction.git
-   cd stock-price-prediction
+   git clone https://github.com/Yashparmar1125/stocksage-backend.git
+   cd backend
    ```
 
 2. Install backend dependencies:
    ```bash
-   cd server/backend
    pip install -r requirements.txt
    ```
 
-### Frontend Setup
-
-1. Navigate to the frontend directory:
-   ```bash
-   cd stock-sage
-   ```
-
-2. Install frontend dependencies:
-   ```bash
-   npm install
-   ```
 
 ### Running the Application
 
@@ -80,20 +66,6 @@ This project utilizes machine learning techniques to predict stock prices and pr
      python app.py
      ```
    - The backend API will be accessible at `http://localhost:8000`.
-
-2. **Start the Frontend Server**:
-
-   - Navigate to the `stock-sage` directory and start the development server:
-     ```bash
-     cd frontend
-     npm run dev
-     ```
-   - The frontend will be accessible at `http://localhost:3000`.
-
-## Usage
-1. On the frontend, input a stock ticker symbol (e.g., `AAPL` for Apple).
-2. The backend will fetch historical data, calculate technical indicators, and return the predicted next-day price and future prices.
-3. The frontend will display the actual vs. predicted prices for the last 30 days and future predictions for the next 10 days, along with the relevant technical indicators.
 
 ---
 
@@ -137,4 +109,3 @@ For any queries or support, feel free to reach out:
 
 ---
 
-Feel free to replace the placeholders with more specific details if needed! This updated version should provide a more structured and comprehensive overview of your project.
