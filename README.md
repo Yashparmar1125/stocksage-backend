@@ -30,7 +30,7 @@ This project utilizes machine learning techniques to predict stock prices and pr
   - Tailwind CSS (for styling)
   
 - **Backend**:
-  - Python (Flask)
+  - Python (Django)
   - XGBoost for Machine Learning
   - Pandas for data manipulation
   - Yahoo Finance API (via `yfinance` library)
@@ -63,7 +63,7 @@ This project utilizes machine learning techniques to predict stock prices and pr
    - Navigate to the `backend` directory and run the server:
      ```bash
      cd backend
-     python app.py
+     python manage.py runserver
      ```
    - The backend API will be accessible at `http://localhost:8000`.
 
